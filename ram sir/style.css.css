@@ -1,0 +1,86 @@
+﻿body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #111;
+    font-weight: 500;
+}
+
+/* HEADER */
+header {
+    background: pink;
+    color: #0000FF;
+    font-style:italic;
+    font-weight:bold;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #b30000;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #f2f2f2;
+}
+
+/* MAIN SECTION */
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* CARDS */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 12px;
+    border-left: 6px solid #b30000;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+/* HEADINGS */
+h2 {
+    color: #b30000;
+    font-weight: 700;
+}
+
+/* TEXT */
+p {
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #000;
+    color: white;
+    margin-top: 40px;
+    font-weight: 500;
+}
